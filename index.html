@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entrada dos sócios · Sociedade Ashworth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body data-pagina="login">
+  <main class="cartao">
+    <span class="canto a"></span><span class="canto b"></span><span class="canto c"></span><span class="canto d"></span>
+
+    <svg class="brasao" viewBox="0 0 80 80" role="img" aria-label="Brasão da Sociedade Ashworth">
+      <circle cx="40" cy="40" r="37" fill="none" stroke="#B8975A" stroke-width="1.5"/>
+      <circle cx="40" cy="40" r="33.5" fill="none" stroke="#7E6A41" stroke-width="2" stroke-dasharray="1 6.7"/>
+      <circle cx="40" cy="40" r="30" fill="none" stroke="#7E6A41"/>
+      <text x="40" y="53" text-anchor="middle" font-family="IM Fell English, Georgia, serif" font-size="36" fill="#B8975A">A</text>
+    </svg>
+
+    <h1>Sociedade Literária Ashworth</h1>
+    <p class="fundada">Fundada em 1887</p>
+
+    <div class="filete" aria-hidden="true"><i></i></div>
+
+    <form id="form-login" novalidate>
+      <label for="usuario">Nome de sócio</label>
+      <input id="usuario" type="text" autocomplete="username" required>
+
+      <label for="senha">Senha</label>
+      <input id="senha" type="password" autocomplete="current-password" required>
+
+      <button type="submit">Entrar</button>
+      <p id="erro" class="erro" role="alert" aria-live="assertive"></p>
+    </form>
+
+    <p class="nota">O acesso é reservado aos sócios.</p>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
