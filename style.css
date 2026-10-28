@@ -23,7 +23,7 @@ body{
   font:400 1.25rem/1.6 var(--texto);
 }
 
-/* Cartão de sócio: o elemento memorável da página */
+/* Cartão de sócio */
 .cartao{
   position:relative; 
   width:min(26rem,100%); 
