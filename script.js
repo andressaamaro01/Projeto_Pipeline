@@ -20,7 +20,7 @@ if (pagina === 'login') {
       sessionStorage.setItem('socio', usuario);
       location.href = 'home.html';
     } else {
-      erro.textContent = 'Nome de sócio ou senha incorretos. Confira os dados e tente de novo.';
+      erro.textContent = 'Nome ou senha incorretos. Confira os dados e tente de novo.';
       document.getElementById('senha').value = '';
       document.getElementById('senha').focus();
     }
