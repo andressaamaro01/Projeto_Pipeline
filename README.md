@@ -1,4 +1,4 @@
-# Projeto_Pipeline
+# Projeto_Pipeline_Sociedade Ashworth
 Projeto da disciplina de Cultura e Praticas Devops, feito para praticar CI/CD, criando uma pipeline (esteira) que publica o site automaticamente a cada alteração no código.
 
 O site é uma página de login com tema ficticio, com duas telas:
