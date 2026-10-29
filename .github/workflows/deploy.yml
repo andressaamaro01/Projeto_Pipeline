@@ -1,4 +1,4 @@
-name: Pipeline Esteira
+name: Pipeline 
 
 on:
   push:
